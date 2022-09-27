@@ -1,4 +1,5 @@
 class ContactsController < ApplicationController
+  before_action :require_user_logged_in!
   before_action :find_contact, only: [:edit, :update, :destroy]
     def index
       @contacts = Contact.all
