@@ -68,3 +68,13 @@ body {
 ul.pagination {
   margin-bottom: 0;
 }
+.image{
+  align-items: center;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    display: block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
