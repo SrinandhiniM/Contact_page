@@ -72,7 +72,7 @@ ul.pagination {
   align-items: center;
     width: 150px;
     height: 150px;
-    background-size: cover;
+    background-size: center;
     display: block;
     border-radius: 100px;
     -webkit-border-radius: 100px;
