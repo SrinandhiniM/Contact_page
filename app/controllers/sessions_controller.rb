@@ -12,6 +12,7 @@ class SessionsController < ApplicationController
         render :new
       end
     end
+    
     def destroy
       # deletes user session
       session[:user_id] = nil
